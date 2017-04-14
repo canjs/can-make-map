@@ -1,8 +1,6 @@
-var each = require('../each/each');
-
 /**
- * @module {function} can-util/js/make-map/make-map make-map
- * @parent can-util/js
+ * @module {function} can-make-map can-make-map
+ * @parent can-infrastructure
  * @signature `makeMap( string )`
  * @param  {String} string A comma separated list of values
  * @return {Object} A JavaScript object with the same keys as the passed-in comma-separated values
@@ -11,7 +9,7 @@ var each = require('../each/each');
  */
 function makeMap(str) {
 	var obj = {}, items = str.split(",");
-	each(items, function(name){
+	items.forEach(function(name){
 		obj[name] = true;
 	});
 	return obj;

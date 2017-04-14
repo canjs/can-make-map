@@ -1,7 +1,7 @@
-var QUnit = require('../../test/qunit');
-var makeMap = require('./make-map');
+var makeMap = require('./can-make-map');
+var QUnit = require('steal-qunit');
 
-QUnit.module("can-util/js/make-map");
+QUnit.module("can-make-map");
 
 QUnit.test("basics", function(){
 	var res = makeMap("a,b,c");
