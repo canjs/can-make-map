@@ -1,6 +1,6 @@
 {
   "name": "can-make-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a comma-separated string into a plain JavaScript object.",
   "homepage": "https://canjs.com/",
   "repository": {
