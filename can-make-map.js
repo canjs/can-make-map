@@ -1,3 +1,4 @@
+"use strict";
 /**
  * @module {function} can-make-map can-make-map
  * @parent can-js-utilities
