@@ -3,6 +3,7 @@
  * @module {function} can-make-map can-make-map
  * @parent can-js-utilities
  * @collection can-infrastructure
+ * @package ./package.json
  * @description Convert a comma-separated string into a plain JavaScript object.
  * @signature `makeMap( string )`
  * @param  {String} string A comma separated list of values
